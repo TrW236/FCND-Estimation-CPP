@@ -16,3 +16,10 @@ The Bayer Filter has two main processes, one is `Predict`, the other is `Update`
 * A linear complementary filter is used for this function.
 * The class `Quaternion` is used for the integration.
 
+## 3. Prediction
+
+## References:
+
+* [Udacity Flying Car Nanodegree](https://www.udacity.com/)
+* [Estimation for Quadrotors](https://www.overleaf.com/read/vymfngphcccj#/54894644/)
+* [original repository from Udacity](https://github.com/udacity/FCND-Estimation-CPP)
