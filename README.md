@@ -22,7 +22,13 @@ The Bayer Filter has two main processes, one is `Predict`, the other is `Update`
 * For the covariance matrix update part, Matrix `Rbg'` and `g'` are firstly calculated, then the covariance matrix `\Sigma` is calculated after the formulas given in the documentation. 
 * The parameters `QPosXYStd` and `QVelXYStd` are at the end tuned to let the calculated covariance grow similarly as the data.
 
-## 4. 
+## 4. Magnetometer Update
+
+The magnetometer can measure the yaw directly. This measurement can be incorperated into the estimation of the value yaw.
+
+## 5. Closed loop + GPS update
+
+
 
 ## References:
 
