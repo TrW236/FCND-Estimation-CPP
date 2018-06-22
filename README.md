@@ -18,7 +18,7 @@ The Bayer Filter has two main processes, one is `Predict`, the other is `Update`
 
 ## 3. Prediction
 
-* For the state update part, the next state is simply calculated through the same pattern `x_t = x_{t-1} + dt * x^p_{t or t-1}`, which is the forward Euler method.
+* For the state update part, the next state is simply calculated through the same pattern `x_t = x_{t-1} + dt * \dot{x}_{t or t-1}`, which is the forward Euler method.
 * For the covariance matrix update part, Matrix `Rbg'` and `g'` are firstly calculated, then the covariance matrix `\Sigma` is calculated after the formulas given in the documentation. 
 * The parameters `QPosXYStd` and `QVelXYStd` are at the end tuned to let the calculated covariance grow similarly as the data.
 
