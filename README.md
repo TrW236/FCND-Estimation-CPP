@@ -28,7 +28,7 @@ The magnetometer can measure the yaw directly. This measurement can be incorpera
 
 ## 5. Closed loop + GPS update
 
-
+The GPS measurements are also used to update the state.
 
 ## References:
 
